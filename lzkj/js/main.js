@@ -13,7 +13,7 @@ jQuery(function($) {'use strict',
 	*/
     $(function(){
         $('#myCarousel').carousel({interval:3000});
-        $('#common').load('common.html');
+        /*$('#common').load('common.html');*/
         $('#header').load('header.html');
         $('#bottom').load('bottom.html');
         $('#footer').load('footer.html');
