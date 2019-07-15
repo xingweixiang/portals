@@ -12,11 +12,14 @@ jQuery(function($) {'use strict',
 	});
 	*/
     $(function(){
-        $('#myCarousel').carousel({interval:3000});
+        $('#main-slider .carousel').carousel({
+            interval: 3000
+        });
+        //$('#myCarousel').carousel({interval:3000});
         /*$('#common').load('common.html');*/
-        $('#header').load('header.html');
-        $('#bottom').load('bottom.html');
-        $('#footer').load('footer.html');
+        $('#header').load('/header.html');
+        $('#bottom').load('/bottom.html');
+        $('#footer').load('/footer.html');
     })
 
 	// accordian
