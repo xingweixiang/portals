@@ -115,12 +115,13 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  /*padding: 20px 0;*/
+  padding-top: 20px;
 }
 
 .center {
   text-align: center;
-  padding-bottom: 55px;
+  /*padding-bottom: 15px;*/
 }
 
 .scaleIn {
@@ -536,10 +537,10 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
-#feature {
-  /*background: #f2f2f2;*/
+/*#feature {
+  background: #f2f2f2;
   padding-bottom: 40px;
-}
+}*/
 
 .features{
   padding: 0;
@@ -592,7 +593,7 @@ input.search-form:hover {
 }
 
 #recent-works{
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 .recent-work-wrap {
@@ -654,7 +655,7 @@ input.search-form:hover {
   opacity: 1;
 }
 
-#services {
+/*#services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
 }
@@ -662,10 +663,10 @@ input.search-form:hover {
 #services .lead,
 #services h2{
   color: #fff;
-}
+}*/
 
 .services-wrap {
-  padding: 40px 30px;
+  padding: 20px 10px;
   background: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
