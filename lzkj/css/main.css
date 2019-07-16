@@ -588,7 +588,7 @@ input.search-form:hover {
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
-  padding: 0;
+  padding: 5px;
 }
 
 #recent-works{
