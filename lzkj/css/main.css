@@ -2528,14 +2528,64 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-
+/*右边QQ样式*/
 .fixed_head_qrcode img {
   width: 70px;
   height: 70px;
   margin: 0 auto;
+  padding-top: 7px;
   display: block;
 }
-
-
-
-
+.fixed_head {
+  width: 100px;
+  padding: 0 9px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.fixed_head_info {
+  padding: 4px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.fixed_head_tel {
+  padding-top: 48px;
+  text-align: center;
+}
+.fixed_head_tx {
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  z-index: 1;
+}
+/*二级菜单*/
+.nav-menu {
+  width: 490px;
+}
+.nav-menu .item-menu {
+  width: 33.3333333%;
+  padding: 0 15px;
+  float: left;
+}
+.navTab {
+  padding: 8px 0;
+  list-style:none;
+}
+.navTab li a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 24px;
+}
+.navTab li a:hover {
+  background: #c52d2f;
+  color: #fff;
+}
+.nav-menu .item-menu h3 span {
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}

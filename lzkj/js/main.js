@@ -81,4 +81,8 @@ jQuery(function($) {'use strict',
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});
+    function qq(){
+        var qq = $('#qqdiv').attr('data-qq');//获取qq号
+        window.open('http://wpa.qq.com/msgrd?v=3&uin='+qq+'&site=qq&menu=yes');
+    }
 });
